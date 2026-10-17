@@ -29,7 +29,7 @@ O comportamento foi reproduzido nos seguintes navegadores:
 
 Foram realizadas capturas comparativas em diferentes larguras de janela.
 
-As imagens serão adicionadas à pasta `evidencias/login/` e vinculadas a este documento.
+As três capturas estão disponíveis na seção Evidências visuais, com imagens armazenadas em `evidencias/login/`.
 
 ### Limitações
 

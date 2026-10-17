@@ -42,3 +42,17 @@ As imagens serão adicionadas à pasta `evidencias/login/` e vinculadas a este d
 BUG-003 | Mensagem de erro parcialmente oculta em determinadas larguras de janela.
 
 O teste funcional de rejeição das credenciais inválidas (SD-CT-09) permanece aprovado.
+
+## Evidências visuais
+
+### Janela larga: mensagem parcialmente oculta
+
+![Mensagem de erro parcialmente oculta em janela larga](../../evidencias/login/erro-janela-larga.png)
+
+### Janela intermediária: mensagem legível
+
+![Mensagem de erro legível em janela intermediária](../../evidencias/login/erro-janela-intermediaria.png)
+
+### Janela estreita: mensagem legível
+
+![Mensagem de erro legível em janela estreita](../../evidencias/login/erro-janela-estreita.png)

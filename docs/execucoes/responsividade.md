@@ -31,6 +31,17 @@ Foram realizadas capturas comparativas em diferentes larguras de janela.
 
 As três capturas estão disponíveis na seção Evidências visuais, com imagens armazenadas em `evidencias/login/`.
 
+### Cobertura por navegador
+
+| Navegador | Executado | Evidência visual |
+|---|---|---|
+| Chrome | Sim | 3 capturas |
+| Edge | Sim | Não registrada |
+| Safari | Sim | Não registrada |
+| Vivaldi | Sim | Não registrada |
+
+**Observação:** As três capturas foram realizadas exclusivamente no Google Chrome, em diferentes larguras de janela. O comportamento também foi reproduzido manualmente nos demais navegadores.
+
 ### Limitações
 
 - As larguras exatas da viewport CSS não foram medidas.

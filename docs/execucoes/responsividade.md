@@ -1,0 +1,44 @@
+# Execuções de teste | Responsividade
+
+**Aplicação:** SauceDemo
+**Data:** 17/10/2026
+**Tipo:** Teste manual de interface e compatibilidade entre navegadores
+
+## SD-EX-16 | Mensagem de erro no login
+
+**Caso relacionado:** SD-CT-16
+
+**Resultado:** Reprovado
+
+### Resultado esperado
+
+A mensagem de erro deve permanecer integralmente legível, sem cortes ou sobreposição de elementos, nas larguras de janela suportadas.
+
+### Resultado observado
+
+Em janelas desktop mais largas, parte da mensagem de erro fica oculta. Ao reduzir a largura da janela, o texto passa a ser exibido corretamente.
+
+O comportamento foi reproduzido nos seguintes navegadores:
+
+- Google Chrome
+- Microsoft Edge
+- Safari
+- Vivaldi
+
+### Evidências
+
+Foram realizadas capturas comparativas em diferentes larguras de janela.
+
+As imagens serão adicionadas à pasta `evidencias/login/` e vinculadas a este documento.
+
+### Limitações
+
+- As larguras exatas da viewport CSS não foram medidas.
+- As versões de todos os navegadores não foram registradas.
+- A causa técnica do problema não foi identificada.
+
+### Defeito relacionado
+
+BUG-003 | Mensagem de erro parcialmente oculta em determinadas larguras de janela.
+
+O teste funcional de rejeição das credenciais inválidas (SD-CT-09) permanece aprovado.

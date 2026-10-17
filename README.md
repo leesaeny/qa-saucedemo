@@ -19,3 +19,18 @@ https://www.saucedemo.com/
 
 ## Situação
 Projeto em desenvolvimento. Documentação dos testes será adicionada progressivamente.
+
+## Documentação
+
+| Seção | Conteúdo |
+|---|---|
+| [Estratégia de testes](docs/estrategia-de-testes.md) | Abordagens utilizadas e evolução da investigação |
+| [Casos de teste](docs/casos-de-teste/) | Cenários e resultados esperados |
+| [Execuções](docs/execucoes/) | Resultados observados e evidências |
+| [Defeitos](docs/bugs/) | Problemas identificados e investigados |
+
+## Organização do projeto
+
+Os documentos são organizados por funcionalidade, seguindo o fluxo de utilização da aplicação: login, catálogo, carrinho e checkout.
+
+Os identificadores originais dos testes foram preservados para manter a rastreabilidade entre casos, execuções e defeitos.

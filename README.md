@@ -27,7 +27,7 @@ Projeto em desenvolvimento. Documentação dos testes será adicionada progressi
 | [Estratégia de testes](docs/estrategia-de-testes.md) | Abordagens utilizadas e evolução da investigação |
 | [Casos de teste](docs/casos-de-teste/README.md) | Cenários e resultados esperados |
 | [Execuções](docs/execucoes/README.md) | Resultados observados e evidências |
-| [Defeitos](docs/bugs/) | Problemas identificados e investigados |
+| [Defeitos](docs/bugs/README.md) | Problemas identificados e investigados |
 
 ## Organização do projeto
 

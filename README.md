@@ -18,7 +18,14 @@ https://www.saucedemo.com/
 - JavaScript e Cypress (etapa futura)
 
 ## Situação
-Projeto em desenvolvimento. Documentação dos testes será adicionada progressivamente.
+Projeto de QA em desenvolvimento, com foco em testes manuais, investigação de defeitos e documentação rastreável.
+
+- **4 casos de teste** documentados.
+- **4 execuções** registradas: 3 aprovadas e 1 reprovada.
+- **1 defeito** documentado, com evidências visuais.
+- Rastreabilidade entre casos, execuções e defeitos.
+
+Próximas etapas: ampliar a cobertura de testes e explorar automação.
 
 ## Documentação
 

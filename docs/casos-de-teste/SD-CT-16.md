@@ -51,7 +51,7 @@ A mensagem deve permanecer integralmente legível, sem cortes ou sobreposição 
 ## Rastreabilidade
 
 - **Caso de origem:** [SD-CT-09](SD-CT-09.md)
-- **Execução relacionada:** SD-EX-16
+- **Execução relacionada:** [SD-EX-16](../execucoes/SD-EX-16.md)
 - **Defeito relacionado:** [BUG-003](../bugs/BUG-003.md)
 
 O resultado observado e as evidências estão documentados nos registros de execução e de defeito.

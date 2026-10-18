@@ -33,7 +33,7 @@ A autenticação deve ser recusada, com apresentação de uma mensagem de erro.
 
 ## Rastreabilidade
 
-- **Execução relacionada:** SD-EX-10
+- **Execução relacionada:** [SD-EX-10](../execucoes/SD-EX-10.md)
 
 O resultado observado está documentado no registro de execução correspondente.
 

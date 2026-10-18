@@ -31,7 +31,7 @@ O usuário deve ser autenticado e direcionado ao catálogo de produtos.
 
 ## Rastreabilidade
 
-- **Execução relacionada:** SD-EX-11
+- **Execução relacionada:** [SD-EX-11](../execucoes/SD-EX-11.md)
 
 O resultado observado está documentado no registro de execução correspondente.
 

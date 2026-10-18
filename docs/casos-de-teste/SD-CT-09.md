@@ -33,7 +33,7 @@ A autenticação deve ser recusada, com apresentação de uma mensagem de erro.
 
 ## Rastreabilidade
 
-- **Execução relacionada:** SD-EX-09
+- **Execução relacionada:** [SD-EX-09](../execucoes/SD-EX-09.md)
 - **Investigação derivada:** [SD-CT-16 | Legibilidade da mensagem de erro](SD-CT-16.md)
 
 Durante a investigação deste cenário, foi identificado um comportamento visual que motivou a criação de um caso independente de responsividade.

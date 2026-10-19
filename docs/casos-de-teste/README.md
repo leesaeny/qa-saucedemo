@@ -12,6 +12,7 @@ Este índice reúne os casos de teste documentados para a aplicação SauceDemo.
 | [SD-CT-10](SD-CT-10.md) | Login | Senha incorreta |
 | [SD-CT-11](SD-CT-11.md) | Login | Credenciais válidas |
 | [SD-CT-16](SD-CT-16.md) | Responsividade | Legibilidade da mensagem de erro no login |
+| [SD-CT-17](SD-CT-17.md) | Login | Validação de campos obrigatórios (parametrizado) |
 
 ## Navegação
 

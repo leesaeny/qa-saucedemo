@@ -12,6 +12,7 @@ Este índice reúne os resultados das execuções manuais realizadas na aplicaç
 | [SD-EX-10](SD-EX-10.md) | [SD-CT-10](../casos-de-teste/SD-CT-10.md) | Login | Aprovado |
 | [SD-EX-11](SD-EX-11.md) | [SD-CT-11](../casos-de-teste/SD-CT-11.md) | Login | Aprovado |
 | [SD-EX-16](SD-EX-16.md) | [SD-CT-16](../casos-de-teste/SD-CT-16.md) | Responsividade | Reprovado |
+| [SD-EX-17](SD-EX-17.md) | [SD-CT-17](../casos-de-teste/SD-CT-17.md) | Login | Aprovado (recorte funcional) |
 
 ## Observações
 

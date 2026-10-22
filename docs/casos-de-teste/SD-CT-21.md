@@ -68,7 +68,7 @@ Capturas de tela não são obrigatórias. Podem ser utilizadas quando ajudarem a
 
 ## 7. Rastreabilidade
 
-- **Execução relacionada:** SD-EX-21 (a documentar).
+- **Execução relacionada:** [SD-EX-21](../execucoes/SD-EX-21.md) — registro exploratório anterior à formalização deste caso.
 - **VIT-06 — Ordenação por preço crescente e decrescente:** conjuntos D01 e D02.
 - **VIT-07 — Ordenação por nome A–Z e Z–A:** conjuntos D03 e D04.
 

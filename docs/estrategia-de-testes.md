@@ -128,13 +128,15 @@ Os identificadores `VIT` pertencem exclusivamente ao planejamento. Não são cas
 
 | Identificador | Cenário | Prioridade inicial | Impacto de uma falha | Dependência de execução | Situação |
 |---|---|---|---|---|---|
-| VIT-01 | Exibição da identidade e do preço dos produtos | Alta | Pode impedir a identificação do produto ou apresentar informação de preço inadequada à decisão de compra. | Autenticação válida e acesso à listagem. | Planejado |
-| VIT-02 | Adição e remoção de produtos pela vitrine | Alta | Pode impedir a seleção dos itens desejados ou manter itens indesejados no carrinho. | Acesso à listagem e estado inicial conhecido do carrinho. A remoção exige um produto previamente adicionado. | Planejado |
-| VIT-03 | Consistência de identidade e preço entre listagem e detalhes | Alta | Divergências podem levar à seleção equivocada de produtos e comprometer a confiança nas informações exibidas. | Acesso à listagem e aos detalhes do mesmo produto. | Planejado |
-| VIT-04 | Navegação da listagem para os detalhes | Média | Pode impedir o acesso às informações detalhadas do produto. | Autenticação válida e acesso à listagem. | Planejado |
-| VIT-05 | Exibição de imagens e descrições | Média | Pode dificultar a compreensão das características e a identificação visual dos produtos. | Acesso à listagem e aos detalhes, conforme os elementos avaliados. | Planejado |
-| VIT-06 | Ordenação por preço crescente e decrescente | Média | Pode dificultar a comparação e a busca de produtos por faixa de preço. | Listagem com produtos de preços distintos e controle de ordenação disponível. | Planejado |
-| VIT-07 | Ordenação por nome A–Z e Z–A | Baixa | Pode dificultar a localização de produtos pelo nome. | Listagem com nomes distintos e controle de ordenação disponível. | Planejado |
+| VIT-01 | Exibição da identidade e do preço dos produtos | Alta | Pode impedir a identificação do produto ou apresentar informação de preço inadequada à decisão de compra. | Autenticação válida e acesso à listagem. | Explorado e documentado |
+| VIT-02 | Adição e remoção de produtos pela vitrine | Alta | Pode impedir a seleção dos itens desejados ou manter itens indesejados no carrinho. | Acesso à listagem e estado inicial conhecido do carrinho. A remoção exige um produto previamente adicionado. | Explorado e documentado |
+| VIT-03 | Consistência de identidade e preço entre listagem e detalhes | Alta | Divergências podem levar à seleção equivocada de produtos e comprometer a confiança nas informações exibidas. | Acesso à listagem e aos detalhes do mesmo produto. | Explorado e documentado |
+| VIT-04 | Navegação da listagem para os detalhes | Média | Pode impedir o acesso às informações detalhadas do produto. | Autenticação válida e acesso à listagem. | Explorado e documentado |
+| VIT-05 | Exibição de imagens e descrições | Média | Pode dificultar a compreensão das características e a identificação visual dos produtos. | Acesso à listagem e aos detalhes, conforme os elementos avaliados. | Explorado e documentado |
+| VIT-06 | Ordenação por preço crescente e decrescente | Média | Pode dificultar a comparação e a busca de produtos por faixa de preço. | Listagem com produtos de preços distintos e controle de ordenação disponível. | Explorado e documentado |
+| VIT-07 | Ordenação por nome A–Z e Z–A | Baixa | Pode dificultar a localização de produtos pelo nome. | Listagem com nomes distintos e controle de ordenação disponível. | Explorado e documentado |
+
+A exploração está registrada em [SD-EX-19](execucoes/SD-EX-19.md), [SD-EX-20](execucoes/SD-EX-20.md) e [SD-EX-21](execucoes/SD-EX-21.md). A situação “Explorado e documentado” não representa aprovação de execuções formais.
 
 ### Critérios de priorização e sequência de execução
 

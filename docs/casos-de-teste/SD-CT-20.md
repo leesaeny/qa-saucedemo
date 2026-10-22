@@ -58,7 +58,7 @@ Capturas de tela não são obrigatórias. Podem ser utilizadas quando contribuí
 
 ## 7. Rastreabilidade
 
-- **Execução relacionada:** SD-EX-20 (a documentar).
+- **Execução relacionada:** [SD-EX-20](../execucoes/SD-EX-20.md) — registro exploratório anterior à formalização deste caso.
 - **VIT-02 — Adição e remoção de produtos pela vitrine:** inclusão e remoção de dois produtos diferentes, com verificação do contador e dos botões correspondentes.
 
 `VIT-02` pertence ao planejamento. `SD-CT-20` identifica este caso de teste; os resultados de sua futura execução deverão ser registrados separadamente.

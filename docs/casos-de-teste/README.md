@@ -13,6 +13,9 @@ Este índice reúne os casos de teste documentados para a aplicação SauceDemo.
 | [SD-CT-11](SD-CT-11.md) | Login | Credenciais válidas |
 | [SD-CT-16](SD-CT-16.md) | Responsividade | Legibilidade da mensagem de erro no login |
 | [SD-CT-17](SD-CT-17.md) | Login | Validação de campos obrigatórios (parametrizado) |
+| [SD-CT-19](SD-CT-19.md) | Vitrine / Catálogo | Exibição e consistência das informações dos produtos |
+| [SD-CT-20](SD-CT-20.md) | Vitrine / Catálogo | Inclusão e remoção de produtos pela vitrine |
+| [SD-CT-21](SD-CT-21.md) | Vitrine / Catálogo | Ordenação dos produtos na vitrine |
 
 ## Navegação
 

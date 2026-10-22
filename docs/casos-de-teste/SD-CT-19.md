@@ -1,5 +1,7 @@
 # SD-CT-19 | Exibição e consistência das informações dos produtos
 
+[Início](../../README.md) > [Casos de teste](README.md) > SD-CT-19
+
 ## 1. Identificação e objetivo
 
 - **Aplicação:** SauceDemo
@@ -69,6 +71,8 @@ Capturas de tela não são obrigatórias. Podem ser utilizadas quando ajudarem a
 
 ## 7. Rastreabilidade
 
+- **Execução relacionada:** [SD-EX-19](../execucoes/SD-EX-19.md) — registro exploratório anterior à formalização deste caso.
+
 | Item de planejamento | Cobertura neste caso |
 |---|---|
 | VIT-01 — Exibição da identidade e do preço dos produtos | Verificação da presença e legibilidade do nome e do preço na vitrine. |
@@ -76,3 +80,9 @@ Capturas de tela não são obrigatórias. Podem ser utilizadas quando ajudarem a
 | VIT-05 — Exibição de imagens e descrições | Limitada à presença e legibilidade das descrições e à presença, carregamento e visibilidade das imagens na listagem e nos detalhes. |
 
 Os identificadores `VIT` pertencem ao planejamento. `SD-CT-19` identifica este único caso de teste; os resultados de sua futura execução deverão ser registrados separadamente.
+
+## Navegação
+
+[← Voltar ao índice de casos de teste](README.md)
+
+[⌂ Voltar ao README principal](../../README.md)

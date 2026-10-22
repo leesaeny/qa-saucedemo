@@ -1,5 +1,7 @@
 # SD-EX-19 | Registro exploratório: informações dos produtos
 
+[Início](../../README.md) > [Execuções de teste](README.md) > SD-EX-19
+
 ## Identificação
 
 - **Aplicação:** SauceDemo
@@ -41,9 +43,15 @@ Os textos com aparência de código permanecem como observações a investigar.
 
 ## Rastreabilidade
 
-- **SD-CT-19:** caso formalizado relacionado às verificações exploratórias aqui documentadas.
+- **Caso relacionado:** [SD-CT-19](../casos-de-teste/SD-CT-19.md) — caso formalizado relacionado às verificações exploratórias aqui documentadas.
 - **VIT-01:** observação da presença de nome e preço na vitrine.
 - **VIT-03:** observação da consistência de nome e preço entre listagem e detalhes.
 - **VIT-05:** observação da presença de imagens e descrições; sem registro detalhado de legibilidade por produto.
 
 Os identificadores `VIT` representam itens de planejamento. Sua associação a este registro indica correspondência com a exploração relatada, sem declarar cobertura formal integral.
+
+## Navegação
+
+[← Voltar ao índice de execuções](README.md)
+
+[⌂ Voltar ao README principal](../../README.md)

@@ -119,3 +119,35 @@ As hipóteses sobre possíveis causas técnicas também não são apresentadas c
 - Registrar informações mais precisas sobre os ambientes de execução.
 - Investigar cenários adicionais e comportamentos ainda inconclusivos.
 - Introduzir testes automatizados progressivamente, mantendo a separação entre resultados manuais e automatizados.
+
+## 10. Cobertura e priorização da vitrine
+
+Esta matriz propõe a ampliação da cobertura da vitrine de produtos. Ela representa o planejamento de verificações e não comprova execução ou cobertura formalmente documentada.
+
+Os identificadores `VIT` pertencem exclusivamente ao planejamento. Não são casos de teste `SD-CT`. A formalização dos cenários deverá gerar casos com identificadores `SD-CT`, vinculados aos respectivos itens desta matriz.
+
+| Identificador | Cenário | Prioridade inicial | Impacto de uma falha | Dependência de execução | Situação |
+|---|---|---|---|---|---|
+| VIT-01 | Exibição da identidade e do preço dos produtos | Alta | Pode impedir a identificação do produto ou apresentar informação de preço inadequada à decisão de compra. | Autenticação válida e acesso à listagem. | Planejado |
+| VIT-02 | Adição e remoção de produtos pela vitrine | Alta | Pode impedir a seleção dos itens desejados ou manter itens indesejados no carrinho. | Acesso à listagem e estado inicial conhecido do carrinho. A remoção exige um produto previamente adicionado. | Planejado |
+| VIT-03 | Consistência de identidade e preço entre listagem e detalhes | Alta | Divergências podem levar à seleção equivocada de produtos e comprometer a confiança nas informações exibidas. | Acesso à listagem e aos detalhes do mesmo produto. | Planejado |
+| VIT-04 | Navegação da listagem para os detalhes | Média | Pode impedir o acesso às informações detalhadas do produto. | Autenticação válida e acesso à listagem. | Planejado |
+| VIT-05 | Exibição de imagens e descrições | Média | Pode dificultar a compreensão das características e a identificação visual dos produtos. | Acesso à listagem e aos detalhes, conforme os elementos avaliados. | Planejado |
+| VIT-06 | Ordenação por preço crescente e decrescente | Média | Pode dificultar a comparação e a busca de produtos por faixa de preço. | Listagem com produtos de preços distintos e controle de ordenação disponível. | Planejado |
+| VIT-07 | Ordenação por nome A–Z e Z–A | Baixa | Pode dificultar a localização de produtos pelo nome. | Listagem com nomes distintos e controle de ordenação disponível. | Planejado |
+
+### Critérios de priorização e sequência de execução
+
+As prioridades são **provisórias e baseadas principalmente no impacto** de uma possível falha. A probabilidade de ocorrência das falhas ainda não foi estimada; portanto, esta matriz não constitui uma avaliação completa de risco.
+
+- **Prioridade** indica a importância relativa de investigar cada cenário.
+- **Risco** considera o impacto e a probabilidade de uma falha. Sua avaliação deverá ser refinada quando houver informações suficientes.
+- **Dependência de execução** indica as condições necessárias para realizar uma verificação e pode influenciar a sequência dos testes, sem alterar automaticamente sua prioridade.
+
+Por exemplo, o acesso aos detalhes é uma condição necessária para VIT-03, mas não exige a execução independente de VIT-04 como pré-requisito.
+
+### Limite da comparação entre telas
+
+A comparação de identidade e preço entre listagem e detalhes demonstra **consistência entre as telas**, mas não necessariamente a correção absoluta dessas informações. As duas telas podem apresentar o mesmo valor incorreto.
+
+Para confirmar a correção absoluta dos preços, é necessária uma referência independente e confiável, como requisitos aprovados ou um catálogo de preços validado. Na ausência dessa referência, o resultado deve se limitar à consistência observada, registrando a correção absoluta como não determinada.

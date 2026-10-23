@@ -153,3 +153,26 @@ Por exemplo, o acesso aos detalhes é uma condição necessária para VIT-03, ma
 A comparação de identidade e preço entre listagem e detalhes demonstra **consistência entre as telas**, mas não necessariamente a correção absoluta dessas informações. As duas telas podem apresentar o mesmo valor incorreto.
 
 Para confirmar a correção absoluta dos preços, é necessária uma referência independente e confiável, como requisitos aprovados ou um catálogo de preços validado. Na ausência dessa referência, o resultado deve se limitar à consistência observada, registrando a correção absoluta como não determinada.
+
+## 11. Cobertura e priorização do carrinho
+
+Esta matriz registra o planejamento inicial da cobertura do carrinho. O identificador `CAR` pertence ao planejamento e não substitui o identificador do caso de teste `SD-CT`.
+
+| Identificador | Cenário | Prioridade inicial | Impacto de uma falha | Dependência de execução | Situação |
+|---|---|---|---|---|---|
+| CAR-01 | Integridade dos produtos e preços no carrinho | Alta | Pode apresentar produtos diferentes dos selecionados, itens ausentes, adicionais ou duplicados, ou preços inconsistentes com a vitrine, comprometendo a conferência da seleção de compra. | Autenticação válida, carrinho inicialmente vazio e pelo menos três produtos distintos disponíveis. Inclusão dos três produtos pela vitrine, com identificação dos nomes e preços, e acesso ao carrinho. | Caso documentado; execução pendente |
+| CAR-02 | Remoção individual e preservação dos demais produtos | Alta | A remoção incorreta pode manter produtos indesejados, excluir outros produtos ou alterar indevidamente a composição da compra. | Carrinho com pelo menos dois produtos diferentes previamente adicionados. | Explorado; caso formal pendente |
+| CAR-03 | Preservação da seleção durante a navegação | Alta | A perda ou alteração da seleção pode comprometer a composição da compra. | Produtos previamente selecionados; acesso ao carrinho e retorno à vitrine. | Explorado; caso formal pendente |
+| CAR-04 | Consistência do contador do carrinho | Média | Um contador incorreto pode transmitir uma quantidade equivocada de itens selecionados. | Estado inicial conhecido do carrinho e produtos disponíveis para inclusão e remoção. | Explorado; caso formal pendente |
+| CAR-05 | Navegação entre carrinho, vitrine e checkout | Média | Falhas de navegação podem dificultar ou impedir a continuidade da jornada de compra. | Acesso ao carrinho e controles de navegação disponíveis. | Explorado; caso formal pendente |
+| CAR-06 | Ordem de apresentação dos produtos no carrinho | Baixa | Uma ordem inesperada pode prejudicar a previsibilidade da apresentação, mas não foi identificado requisito oficial determinando a ordenação. | Pelo menos três produtos distintos adicionados, permitindo remover um item intermediário e adicioná-lo novamente. | Explorado; formalização a avaliar |
+
+O CAR-01 está detalhado em [SD-CT-22](casos-de-teste/SD-CT-22.md). Os demais cenários ainda não possuem casos formais documentados. O registro SD-EX-22 permanece pendente; a documentação do caso não comprova execução ou aprovação.
+
+As prioridades são provisórias, baseadas principalmente no impacto, pois a probabilidade das falhas ainda não foi estimada. Prioridade indica a importância relativa da investigação; risco considera impacto e probabilidade. As dependências indicam condições necessárias para executar o teste e podem orientar sua sequência, sem definir prioridade ou risco nem exigir a execução independente do SD-CT-20. Se uma falha impedir completamente o acesso ao checkout, a prioridade de CAR-05 deverá ser reavaliada.
+
+Na exploração, a remoção individual preservou os demais produtos; ao retornar à vitrine, a seleção permaneceu e os botões exibiram **Remove**. O contador diminuiu corretamente após remoção diretamente no carrinho. O [SD-CT-20](casos-de-teste/SD-CT-20.md) cobre alterações do contador pela vitrine, com execução formal pendente. Também foi possível retornar à vitrine e avançar para o checkout.
+
+Os produtos apareceram na ordem de inclusão, e um item removido e adicionado novamente apareceu no final. Essas observações são exploratórias e não representam execuções formais aprovadas. Sem requisitos oficiais, outra ordem de apresentação, ausência de subtotal ou checkout com carrinho vazio não constituem, por si só, defeitos confirmados.
+
+A comparação de identidade e preço entre vitrine e carrinho demonstra consistência entre telas, sem confirmar a correção absoluta dos dados. Contador, remoção, ordenação e checkout não fazem parte de CAR-01.

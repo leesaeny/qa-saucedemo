@@ -18,10 +18,10 @@ https://www.saucedemo.com/
 - JavaScript e Cypress (etapa futura)
 
 ## Situação
-Projeto de QA em desenvolvimento, com foco em testes manuais, investigação de defeitos e documentação rastreável. A cobertura exploratória da vitrine contempla informações dos produtos, inclusão e remoção pela listagem e ordenação por preço e nome.
+Projeto de QA em desenvolvimento, com foco em testes manuais, investigação de defeitos e documentação rastreável. A cobertura exploratória da vitrine contempla informações dos produtos, inclusão e remoção pela listagem e ordenação por preço e nome. A cobertura do carrinho inclui planejamento por riscos e verificação formal da integridade dos produtos e preços.
 
-- **8 casos de teste** documentados.
-- **5 execuções formais** registradas: 4 aprovadas, sendo 1 apenas no recorte funcional, e 1 reprovada.
+- **9 casos de teste** documentados.
+- **6 execuções formais** documentadas: 5 aprovadas e 1 reprovada. SD-EX-17 aprovado no recorte funcional avaliado; SD-EX-22 aprovado no escopo funcional definido pelo SD-CT-22.
 - **3 registros exploratórios** da vitrine, sem divergências relatadas, que não representam aprovação de execuções formais.
 - **1 defeito** documentado, com evidências visuais.
 - Rastreabilidade entre casos, execuções e defeitos.

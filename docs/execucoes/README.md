@@ -16,6 +16,7 @@ Este índice reúne os resultados das execuções manuais e os registros retrosp
 | [SD-EX-19](SD-EX-19.md) | [SD-CT-19](../casos-de-teste/SD-CT-19.md) | Vitrine / Catálogo | Exploratório, sem divergências relatadas |
 | [SD-EX-20](SD-EX-20.md) | [SD-CT-20](../casos-de-teste/SD-CT-20.md) | Vitrine / Catálogo | Exploratório, sem divergências relatadas |
 | [SD-EX-21](SD-EX-21.md) | [SD-CT-21](../casos-de-teste/SD-CT-21.md) | Vitrine / Catálogo | Exploratório, sem divergências relatadas |
+| [SD-EX-22](SD-EX-22.md) | [SD-CT-22](../casos-de-teste/SD-CT-22.md) | Carrinho | Execução formal, aprovada no escopo funcional do SD-CT-22 |
 
 ## Observações
 

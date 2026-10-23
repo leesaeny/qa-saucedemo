@@ -16,6 +16,7 @@ Este índice reúne os casos de teste documentados para a aplicação SauceDemo.
 | [SD-CT-19](SD-CT-19.md) | Vitrine / Catálogo | Exibição e consistência das informações dos produtos |
 | [SD-CT-20](SD-CT-20.md) | Vitrine / Catálogo | Inclusão e remoção de produtos pela vitrine |
 | [SD-CT-21](SD-CT-21.md) | Vitrine / Catálogo | Ordenação dos produtos na vitrine |
+| [SD-CT-22](SD-CT-22.md) | Carrinho | Integridade dos produtos e preços no carrinho |
 
 ## Navegação
 
